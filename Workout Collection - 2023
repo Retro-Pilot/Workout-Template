@@ -1,0 +1,14 @@
+up:: [[Home]]
+tags:: #atlas/MOC🗺
+
+# Workout Collection - 2023
+
+`button-AddWorkout`
+
+```dataview
+table Type, Location, Quality, Energy, Injured  from "Calendar/2023/Workout Journal"
+and !outgoing([[Workout Journals - (View All)]])
+sort file.name desc
+limit 365
+```
+
